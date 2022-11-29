@@ -1,9 +1,11 @@
-import './App.css';
+import CatsList from "./CatsList"
+import CATS from "./db"
 
 function App() {
   return (
     <div className="App">
-      <p>Hello</p>
+      <h1>Cats App!</h1>
+      <CatsList cats={CATS}/>
     </div>
   );
 }
