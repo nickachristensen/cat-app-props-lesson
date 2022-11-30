@@ -4,7 +4,7 @@ function CatsList({ cats }) {
 
     const displayCats = cats.map(cat => {
         return (
-            <CatCard key={cat.name} cat={cat}/>
+            <CatCard key={cat.name} cat={cat} />
         )
     })
 

@@ -1,8 +1,7 @@
-
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -10,7 +9,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -22,9 +21,10 @@ code {
 
 #header {
   color: pink;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255), 0 0 5px rgb(139, 0, 127);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255),
+    0 0 5px rgb(139, 0, 127);
   text-align: center;
-  text-decoration-line: underline;  
+  text-decoration-line: underline;
   border-style: solid;
   border-width: px;
   border-color: pink;
@@ -32,66 +32,76 @@ code {
   padding: 10px;
   margin: 30px;
   width: 200px;
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: rgb(231, 231, 231);
 }
 
 #catsList {
   display: flex;
   justify-content: space-evenly;
-
 }
 
-#catCard{
+#catCard {
   text-align: center;
   border-style: solid;
   border-width: 2px;
   border-color: pink;
   border-radius: 10px;
-  padding: 10px;
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.40);
+  padding: 15px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.4);
   background-color: rgb(231, 231, 231);
+  margin: 10px;
+  margin-bottom: 100px;
 }
-
 
 #catHeader {
   text-align: center;
-  text-decoration-line: underline;  
+  text-decoration-line: underline;
   color: pink;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255), 0 0 5px rgb(139, 0, 127);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255),
+    0 0 5px rgb(139, 0, 127);
 }
 
 #catCardImg {
   max-width: 300px;
   max-height: 200px;
   border-radius: 10px;
-  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.20);
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.2);
 }
-
 
 #catPersonality {
   text-align: center;
   color: pink;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255), 0 0 5px rgb(139, 0, 127);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255),
+    0 0 5px rgb(139, 0, 127);
 }
 
 #catColor {
   text-align: center;
   color: pink;
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255), 0 0 5px rgb(139, 0, 127);
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255),
+    0 0 5px rgb(139, 0, 127);
+}
+
+#catToyCard {
+  border-style: solid;
+  border-color: pink;
+  border-radius: 10px;
+  margin: 5px;
 }
 
 #catToysHead {
   text-align: center;
-  text-decoration-line: underline;  
-  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255), 0 0 5px rgb(139, 0, 127);
+  text-decoration-line: underline;
+  color: pink;
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(247, 0, 255),
+    0 0 5px rgb(139, 0, 127);
 }
-
 
 #catToys {
   display: flex;
   flex-direction: column;
-  align-items:center;
+  align-items: center;
 }
 
 #catToyImg {
