@@ -9,7 +9,7 @@ function CatsList({ cats }) {
     })
 
     return (
-        <div>
+        <div id="catsList">
             {displayCats}
         </div>
     );
